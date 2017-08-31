@@ -62,3 +62,45 @@ void draw() {
     }
 }
 ```
+
+> **伪随机数**
+> 从random函数得到的随机数并不是真正的随机数；因此被称为伪随机。这是用数学函数模拟随机的结果。这个函数随时间推移产生一串数字，但是这段时间对我们来说很长，所以他和纯随机一样的好。
+
+### 倾向向右移动的漫步者
+``` java
+class Walker {
+    Walker(){
+        x = width/2;
+        y = height/2;
+    }
+    void display(){
+        stroke(0);
+        point(x,y);
+    }
+    void step() {
+        float r = random(1);
+        if (r < 0.4) {
+            x++;
+        } else if (r < 0.6) {
+            x--;
+        } else if (r < 0.8) {
+            y++;
+        } else {
+            y--;
+        }
+    }
+    int x;
+    int y;
+}
+Walker w;
+void setup() {
+    size(640,360);
+    w = new Walker();
+    background(255);
+}
+void draw() {
+    w.step();
+    w.display();
+}
+
+```
