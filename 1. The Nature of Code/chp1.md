@@ -25,7 +25,14 @@ void draw() {
   ellipse(x,y,16,16);
 }
 ```
-## 程序员的向量
+## 向量-减
 ```java
+void setup() {
+  size(400,400);
+}
 
+void draw() {
+  background(255);
+  
+}
 ```
