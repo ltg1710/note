@@ -1,4 +1,6 @@
-官方示例地址：https://github.com/shiffman/The-Nature-of-Code-Examples  
+书本在线版本：http://natureofcode.com
+示例地址：https://github.com/shiffman/The-Nature-of-Code-Examples  
+视频讲解：https://www.youtube.com/user/shiffman/playlists?shelf_id=6&view=50&sort=dd
 processing官网：https://processing.org/
 
 类似库
