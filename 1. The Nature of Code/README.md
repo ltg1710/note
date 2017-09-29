@@ -1,9 +1,10 @@
 书本在线版本：http://natureofcode.com  
-示例地址：https://github.com/shiffman/The-Nature-of-Code-Examples   
+示例地址：https://github.com/shiffman/The-Nature-of-Code-Examples  
 视频讲解：https://www.youtube.com/user/shiffman/playlists?shelf_id=6&view=50&sort=dd  
-processing官网：https://processing.org/  
+processing官网：https://processing.org/  
+使用中文来编程：https://github.com/program-in-chinese/p5js_in_chinese  
 
-类似库  
+类似库  
 * [p5.js](https://p5js.org)
   
 更多书籍和资料：
